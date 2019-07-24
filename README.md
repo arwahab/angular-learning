@@ -45,3 +45,18 @@ How `Components` work:
     *    and  `selector`
 
 - The `@Input` decorator indicates that the property value will be passed in from the component's parent (in this case, the product list component).
+---------------------------------------------------------------------------------------------- 
+
+How `Routing` works:
+
+- To do `routing` we need to use the Angular `router`. 
+- The Angular `router` enables us to show different components and data to the user based on where the user is in the application. 
+- The `router` enables navigation from one view to the next as users perform application tasks like:
+
+    *   Enter a URL in the address bar, and the browser navigates to a corresponding page.
+    *   Click links on the page, and the browser navigates to a new page.
+    *   Click the browser's back and forward buttons, and the browser navigates backward and forward        through the history of pages you've seen.
+
+- `app.module.ts` is where we can register a route.
+- 
+
